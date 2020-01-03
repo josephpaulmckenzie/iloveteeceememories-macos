@@ -21,15 +21,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         FirebaseApp.configure()
 
+        fetchTeeceeLoves()
+//        let numberFormatter = NumberFormatter()
+//        let numberFormatter2 =  numberFormatter.string(from: loveteecee)
+//
+//
+        
         
         // Create the SwiftUI view that provides the window contents.
         let statusBar = NSStatusBar.system
         statusBarItem = statusBar.statusItem(
-            withLength: NSStatusItem.squareLength)
-        statusBarItem.button?.title = " 🐶 "
+            withLength:80)
+        statusBarItem.button?.title = "🐶 "
         let statusBarMenu = NSMenu(title: "Fetch Teecee & Coder Pics")
         statusBarItem.menu = statusBarMenu
         
+//
+//        statusBarMenu.addItem(NSMenuItem(title: "Loves", action: #selector(AppDelegate.fetchPuppyPics),   keyEquivalent: "Loves"))
+
         statusBarMenu.addItem(
             withTitle: "Random Teecee Pic",
             action: #selector(AppDelegate.fetchPuppyPics),
@@ -52,22 +61,45 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
     }
     
-    @objc func fetchPuppyPics(_ sender: NSMenuItem) {
-        if sender.title == "Random Teecee Pic" {
-           
+    
+        func fetchTeeceeLoves() {
+            
             var ref: DatabaseReference!
-            ref = Database.database().reference()
-            ref.observe(.value, with: { snapshot in
-              print(snapshot.value as Any)
-            })
-
-
-            }
+                      ref = Database.database().reference()
+                      ref.observe(.value, with: { snapshot in
+                          let allDocs = snapshot.value as! NSDictionary
+                          let loves = allDocs["Loves"] as! NSNumber
+                          let numberFormatter = NumberFormatter()
+                          let numberFormatter2 =  numberFormatter.string(from: loves)
+                          let statusBar = NSStatusBar.system
+                          self.statusBarItem = statusBar.statusItem(
+                                         withLength:80)
+                          self.statusBarItem.button?.title = "🐶 "   + (numberFormatter2!)
+                      })
+    }
+    
+    
+    @objc func fetchPuppyPics(_ sender: NSMenuItem) {
+        
+//          var ref: DatabaseReference!
+//            ref = Database.database().reference()
+//            ref.observe(.value, with: { snapshot in
+//                let allDocs = snapshot.value as! NSDictionary
+//                let loves = allDocs["Loves"] as! NSNumber
+//                let numberFormatter = NumberFormatter()
+//                let numberFormatter2 =  numberFormatter.string(from: loves)
+//                let statusBar = NSStatusBar.system
+//                self.statusBarItem = statusBar.statusItem(
+//                               withLength:80)
+//                self.statusBarItem.button?.title = "🐶 "   + (numberFormatter2!)
+//            })
+                
+    }
         
         func applicationWillTerminate(_ aNotification: Notification) {
             // Insert code here to tear down your application
         }
-    }
+    
 
 
 }

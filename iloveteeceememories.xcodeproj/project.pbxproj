@@ -17,7 +17,7 @@
 		D52B983D23BECAAA002ED95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52B983B23BECAAA002ED95D /* Main.storyboard */; };
 		D52B984923BECAAA002ED95D /* iloveteeceememoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B984823BECAAA002ED95D /* iloveteeceememoriesTests.swift */; };
 		D52B985423BECAAA002ED95D /* iloveteeceememoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B985323BECAAA002ED95D /* iloveteeceememoriesUITests.swift */; };
-		D52B986423BF0300002ED95D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52B986323BF02FF002ED95D /* GoogleService-Info.plist */; };
+		D52B986823BF0956002ED95D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52B986723BF0956002ED95D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		D52B984F23BECAAA002ED95D /* iloveteeceememoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iloveteeceememoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B985323BECAAA002ED95D /* iloveteeceememoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iloveteeceememoriesUITests.swift; sourceTree = "<group>"; };
 		D52B985523BECAAA002ED95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D52B986323BF02FF002ED95D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D52B986723BF0956002ED95D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D5DC2D8C42E0391F33147E97 /* Pods-iloveteeceememoriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloveteeceememoriesTests.release.xcconfig"; path = "Target Support Files/Pods-iloveteeceememoriesTests/Pods-iloveteeceememoriesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F366B3A1685AA3A49A4511A3 /* Pods_iloveteeceememories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloveteeceememories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F607FBF8CFF34B9E04FCCB47 /* Pods_iloveteeceememoriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloveteeceememoriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,8 +144,8 @@
 				D52B983423BECAA6002ED95D /* ContentView.swift */,
 				D52B983623BECAAA002ED95D /* Assets.xcassets */,
 				D52B983B23BECAAA002ED95D /* Main.storyboard */,
+				D52B986723BF0956002ED95D /* GoogleService-Info.plist */,
 				D52B983E23BECAAA002ED95D /* Info.plist */,
-				D52B986323BF02FF002ED95D /* GoogleService-Info.plist */,
 				D52B983F23BECAAA002ED95D /* iloveteeceememories.entitlements */,
 				D52B983823BECAAA002ED95D /* Preview Content */,
 			);
@@ -288,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D52B983D23BECAAA002ED95D /* Main.storyboard in Resources */,
-				D52B986423BF0300002ED95D /* GoogleService-Info.plist in Resources */,
+				D52B986823BF0956002ED95D /* GoogleService-Info.plist in Resources */,
 				D52B983A23BECAAA002ED95D /* Preview Assets.xcassets in Resources */,
 				D52B983723BECAAA002ED95D /* Assets.xcassets in Resources */,
 			);
