@@ -1,0 +1,6 @@
+framework module Pods_iloveteeceememoriesTests {
+  umbrella header "Pods-iloveteeceememoriesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

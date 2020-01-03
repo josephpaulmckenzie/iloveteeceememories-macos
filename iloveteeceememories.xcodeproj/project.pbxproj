@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46F1C69CB73D899CB8E22ED6 /* Pods_iloveteeceememories_iloveteeceememoriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEFFF7619C73B4925F8F137 /* Pods_iloveteeceememories_iloveteeceememoriesUITests.framework */; };
+		75570B40CC9BE8008F630760 /* Pods_iloveteeceememoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F607FBF8CFF34B9E04FCCB47 /* Pods_iloveteeceememoriesTests.framework */; };
+		ABB2AD1A98C200BB0CE96D70 /* Pods_iloveteeceememories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366B3A1685AA3A49A4511A3 /* Pods_iloveteeceememories.framework */; };
 		D52B983323BECAA6002ED95D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B983223BECAA6002ED95D /* AppDelegate.swift */; };
 		D52B983523BECAA6002ED95D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B983423BECAA6002ED95D /* ContentView.swift */; };
 		D52B983723BECAAA002ED95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52B983623BECAAA002ED95D /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		D52B983D23BECAAA002ED95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52B983B23BECAAA002ED95D /* Main.storyboard */; };
 		D52B984923BECAAA002ED95D /* iloveteeceememoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B984823BECAAA002ED95D /* iloveteeceememoriesTests.swift */; };
 		D52B985423BECAAA002ED95D /* iloveteeceememoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B985323BECAAA002ED95D /* iloveteeceememoriesUITests.swift */; };
+		D52B986423BF0300002ED95D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D52B986323BF02FF002ED95D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1033E5E4F322E74B9AC30CCE /* Pods-iloveteeceememories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloveteeceememories.release.xcconfig"; path = "Target Support Files/Pods-iloveteeceememories/Pods-iloveteeceememories.release.xcconfig"; sourceTree = "<group>"; };
+		1EEFFF7619C73B4925F8F137 /* Pods_iloveteeceememories_iloveteeceememoriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloveteeceememories_iloveteeceememoriesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		539484282AC0DF9477304752 /* Pods-iloveteeceememories-iloveteeceememoriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloveteeceememories-iloveteeceememoriesUITests.release.xcconfig"; path = "Target Support Files/Pods-iloveteeceememories-iloveteeceememoriesUITests/Pods-iloveteeceememories-iloveteeceememoriesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69FCAB6D118EDEA8D7F64159 /* Pods-iloveteeceememories-iloveteeceememoriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloveteeceememories-iloveteeceememoriesUITests.debug.xcconfig"; path = "Target Support Files/Pods-iloveteeceememories-iloveteeceememoriesUITests/Pods-iloveteeceememories-iloveteeceememoriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B43623604E424DB0B3DEAD1 /* Pods-iloveteeceememoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloveteeceememoriesTests.debug.xcconfig"; path = "Target Support Files/Pods-iloveteeceememoriesTests/Pods-iloveteeceememoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B3E56413F6A11B47875B5B /* Pods-iloveteeceememories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloveteeceememories.debug.xcconfig"; path = "Target Support Files/Pods-iloveteeceememories/Pods-iloveteeceememories.debug.xcconfig"; sourceTree = "<group>"; };
 		D52B982F23BECAA6002ED95D /* iloveteeceememories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iloveteeceememories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B983223BECAA6002ED95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D52B983423BECAA6002ED95D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +58,10 @@
 		D52B984F23BECAAA002ED95D /* iloveteeceememoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iloveteeceememoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B985323BECAAA002ED95D /* iloveteeceememoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iloveteeceememoriesUITests.swift; sourceTree = "<group>"; };
 		D52B985523BECAAA002ED95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52B986323BF02FF002ED95D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5DC2D8C42E0391F33147E97 /* Pods-iloveteeceememoriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iloveteeceememoriesTests.release.xcconfig"; path = "Target Support Files/Pods-iloveteeceememoriesTests/Pods-iloveteeceememoriesTests.release.xcconfig"; sourceTree = "<group>"; };
+		F366B3A1685AA3A49A4511A3 /* Pods_iloveteeceememories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloveteeceememories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F607FBF8CFF34B9E04FCCB47 /* Pods_iloveteeceememoriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iloveteeceememoriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB2AD1A98C200BB0CE96D70 /* Pods_iloveteeceememories.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75570B40CC9BE8008F630760 /* Pods_iloveteeceememoriesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F1C69CB73D899CB8E22ED6 /* Pods_iloveteeceememories_iloveteeceememoriesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		502CD28F8695B5821135EFF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F366B3A1685AA3A49A4511A3 /* Pods_iloveteeceememories.framework */,
+				1EEFFF7619C73B4925F8F137 /* Pods_iloveteeceememories_iloveteeceememoriesUITests.framework */,
+				F607FBF8CFF34B9E04FCCB47 /* Pods_iloveteeceememoriesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0290E5569F99337AEDF6C0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3B3E56413F6A11B47875B5B /* Pods-iloveteeceememories.debug.xcconfig */,
+				1033E5E4F322E74B9AC30CCE /* Pods-iloveteeceememories.release.xcconfig */,
+				69FCAB6D118EDEA8D7F64159 /* Pods-iloveteeceememories-iloveteeceememoriesUITests.debug.xcconfig */,
+				539484282AC0DF9477304752 /* Pods-iloveteeceememories-iloveteeceememoriesUITests.release.xcconfig */,
+				6B43623604E424DB0B3DEAD1 /* Pods-iloveteeceememoriesTests.debug.xcconfig */,
+				D5DC2D8C42E0391F33147E97 /* Pods-iloveteeceememoriesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D52B982623BECAA6002ED95D = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +122,8 @@
 				D52B984723BECAAA002ED95D /* iloveteeceememoriesTests */,
 				D52B985223BECAAA002ED95D /* iloveteeceememoriesUITests */,
 				D52B983023BECAA6002ED95D /* Products */,
+				C0290E5569F99337AEDF6C0B /* Pods */,
+				502CD28F8695B5821135EFF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				D52B983623BECAAA002ED95D /* Assets.xcassets */,
 				D52B983B23BECAAA002ED95D /* Main.storyboard */,
 				D52B983E23BECAAA002ED95D /* Info.plist */,
+				D52B986323BF02FF002ED95D /* GoogleService-Info.plist */,
 				D52B983F23BECAAA002ED95D /* iloveteeceememories.entitlements */,
 				D52B983823BECAAA002ED95D /* Preview Content */,
 			);
@@ -142,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D52B985823BECAAA002ED95D /* Build configuration list for PBXNativeTarget "iloveteeceememories" */;
 			buildPhases = (
+				F059248797790480055C31C3 /* [CP] Check Pods Manifest.lock */,
 				D52B982B23BECAA6002ED95D /* Sources */,
 				D52B982C23BECAA6002ED95D /* Frameworks */,
 				D52B982D23BECAA6002ED95D /* Resources */,
+				43282C2BFB1AC13AD699D53A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D52B985B23BECAAA002ED95D /* Build configuration list for PBXNativeTarget "iloveteeceememoriesTests" */;
 			buildPhases = (
+				5A2A8D080572CE6DEC240208 /* [CP] Check Pods Manifest.lock */,
 				D52B984023BECAAA002ED95D /* Sources */,
 				D52B984123BECAAA002ED95D /* Frameworks */,
 				D52B984223BECAAA002ED95D /* Resources */,
@@ -177,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D52B985E23BECAAA002ED95D /* Build configuration list for PBXNativeTarget "iloveteeceememoriesUITests" */;
 			buildPhases = (
+				CFDF56F7CAC1F0B612400EDE /* [CP] Check Pods Manifest.lock */,
 				D52B984B23BECAAA002ED95D /* Sources */,
 				D52B984C23BECAAA002ED95D /* Frameworks */,
 				D52B984D23BECAAA002ED95D /* Resources */,
+				6F1ACD83567F95DBA7CC867D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D52B983D23BECAAA002ED95D /* Main.storyboard in Resources */,
+				D52B986423BF0300002ED95D /* GoogleService-Info.plist in Resources */,
 				D52B983A23BECAAA002ED95D /* Preview Assets.xcassets in Resources */,
 				D52B983723BECAAA002ED95D /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43282C2BFB1AC13AD699D53A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iloveteeceememories/Pods-iloveteeceememories-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iloveteeceememories/Pods-iloveteeceememories-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iloveteeceememories/Pods-iloveteeceememories-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2A8D080572CE6DEC240208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iloveteeceememoriesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1ACD83567F95DBA7CC867D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iloveteeceememories-iloveteeceememoriesUITests/Pods-iloveteeceememories-iloveteeceememoriesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iloveteeceememories-iloveteeceememoriesUITests/Pods-iloveteeceememories-iloveteeceememoriesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iloveteeceememories-iloveteeceememoriesUITests/Pods-iloveteeceememories-iloveteeceememoriesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDF56F7CAC1F0B612400EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iloveteeceememories-iloveteeceememoriesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F059248797790480055C31C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iloveteeceememories-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D52B982B23BECAA6002ED95D /* Sources */ = {
@@ -429,9 +581,11 @@
 		};
 		D52B985923BECAAA002ED95D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B3E56413F6A11B47875B5B /* Pods-iloveteeceememories.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = iloveteeceememories/iloveteeceememories.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"iloveteeceememories/Preview Content\"";
@@ -450,9 +604,11 @@
 		};
 		D52B985A23BECAAA002ED95D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1033E5E4F322E74B9AC30CCE /* Pods-iloveteeceememories.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = iloveteeceememories/iloveteeceememories.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"iloveteeceememories/Preview Content\"";
@@ -471,6 +627,7 @@
 		};
 		D52B985C23BECAAA002ED95D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B43623604E424DB0B3DEAD1 /* Pods-iloveteeceememoriesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +649,7 @@
 		};
 		D52B985D23BECAAA002ED95D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5DC2D8C42E0391F33147E97 /* Pods-iloveteeceememoriesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +671,7 @@
 		};
 		D52B985F23BECAAA002ED95D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FCAB6D118EDEA8D7F64159 /* Pods-iloveteeceememories-iloveteeceememoriesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +691,7 @@
 		};
 		D52B986023BECAAA002ED95D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539484282AC0DF9477304752 /* Pods-iloveteeceememories-iloveteeceememoriesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
